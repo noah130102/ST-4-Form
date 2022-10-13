@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(136, 143, 113);
+    /* background: linear-gradient(90deg, rgb(255, 163, 51) 0%, rgb(255, 255, 255) 100%); */
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    height: 490px;
+    width: 600px;
+    background-color: #3d3c35;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+.container label {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 15px;
+    line-height: 2;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+.container input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.btn {
+    width: 170px !important;
+    margin-top: 50px;
+    height: 40px !important;
+    background-color: white;
+    color: #984747;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 2px 3px 6px 2px #fff;
+}
+
+.image{
+    margin-left: 870px;
+    margin-top: -600px;
+}
+
+.imagecup{
+    height: 350px;
+    width: 220px;
+    margin-right: 830px;
+    background: none;
+    margin-top: -600px;
+}
+
+.school{
+    
+    color: white;
+}
+.background{
+    margin-top: 0;
+    background-image: url(school.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
