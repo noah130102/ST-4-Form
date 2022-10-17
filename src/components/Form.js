@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import Cricketers from './Cricketers';
+import Schools from './Schools';
 import './Form.css';
 import { Link, useNavigate } from 'react-router-dom';
-import cricketer from './cricketer.jpg';
-import cup from './cup.png'
+
 
 
 export default function Form() {
@@ -16,7 +15,7 @@ export default function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     let a = position, b = player, c = address, d=rating;
-    Cricketers.push({ a, b, c ,d});
+    Schools.push({ a, b, c ,d});
     // console.log(Cricketers);
     history('/added');
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, useNavigate} from 'react-router-dom';
-import Cricketers from './Cricketers';
+import Schools from './Schools';
 import './added.css';
 
 
@@ -24,7 +24,7 @@ export default function Added() {
         </thead>
         <tbody>
           {
-            Cricketers.map((item)=>{
+            Schools.map((item)=>{
               return(
                 <tr >
                   <td>{item.a}</td>
